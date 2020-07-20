@@ -2,7 +2,7 @@ import React from 'react';
 import Mouse from './Mouse';
 import Pig from './Pig';
 
-class Mousetracker extends React.Component {
+class MouseTracker extends React.Component {
     renderPig(mouse) {
         return (
             <Pig mouse={mouse} />
@@ -18,4 +18,4 @@ class Mousetracker extends React.Component {
     }
 }
 
-export default Mousetracker;
+export default MouseTracker;
